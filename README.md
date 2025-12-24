@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center">
-  Uma landing page minimalista com efeito Glassmorphism e vídeo de fundo.
+  A minimalist landing page with Glassmorphism effect and background video.
 </p>
 
 <div align="center">
@@ -18,15 +18,15 @@
 
 <br>
 
-## ✨ Funcionalidades
+## ✨ Features
 
-* 🎬 **Video Background:** Atmosfera imersiva com loop contínuo.
-* 🔮 **Glassmorphism:** Estética moderna de vidro fosco.
-* 📱 **Totalmente Responsivo:** Perfeito no celular ou PC.
-* ⚡ **Leve:** HTML e CSS puro, sem frameworks pesados.
+* 🎬 **Video Background:** Immersive atmosphere with continuous loop.
+* 🔮 **Glassmorphism:** Modern frosted glass aesthetic.
+* 📱 **Fully Responsive:** Perfect on mobile or desktop.
+* ⚡ **Lightweight:** Pure HTML and CSS, no heavy frameworks.
 
-## 🚀 Como usar
+## 🚀 How to use
 
-1.  Clone o projeto.
-2.  Edite o arquivo `index.html` para trocar os links.
-3.  Hospede gratuitamente (GitHub Pages, Vercel ou Neocities).
+1.  Clone the project.
+2.  Edit the `index.html` file to replace the links.
+3.  Host for free (GitHub Pages, Vercel, or Neocities).
