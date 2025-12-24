@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Link Hub</title>
+    <link rel="icon" type="image/png" href="https://www.clipartmax.com/png/middle/52-523208_check-vision-icon-green-png.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #ffffff;
+            overflow: hidden; 
+        }
+
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            z-index: -1; 
+            filter: brightness(0.6); 
+        }
+
+        .glass-container {
+            background: rgba(20, 20, 20, 0.6);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 3rem;
+            border-radius: 24px;
+            width: 100%;
+            max-width: 450px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            text-align: center;
+            margin: 20px;
+            animation: fadeIn 1s ease-in-out;
+            position: relative; /* Garante que fique sobre o vídeo */
+            z-index: 1;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+
+        .link-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .link-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 16px 24px;
+            background: rgba(255, 255, 255, 0.05);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .link-btn:hover {
+            background: #ffffff;
+            color: #000;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .link-btn i {
+            margin-right: 10px;
+            font-size: 1.1rem;
+        }
+
+        footer {
+            margin-top: 2rem;
+            font-size: 0.75rem;
+            color: rgba(255, 255, 255, 0.4);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 480px) {
+            .glass-container {
+                padding: 2rem 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <video autoplay muted loop playsinline class="video-background">
+        <source src="https://files.catbox.moe/nfd7ts.mp4" type="video/mp4">
+    </video>
+
+    <div class="glass-container">
+
+        <div class="link-list">
+            
+            <a href="" target="http://test.com" class="link-btn">
+                <i class="fa-solid fa-skull-crossbones"></i> LINK
+            </a>
+
+            <a href="" target="http://test.com" class="link-btn">
+                <i class="fa-solid fa-skull-crossbones"></i> LINK
+            </a>
+            
+            <a href="" target="http://test.com" class="link-btn">
+                <i class="fa-solid fa-skull-crossbones"></i> LINK
+            </a>
+
+            <a href="" target="http://test.com" class="link-btn">
+                <i class="fa-solid fa-skull-crossbones"></i> LINK
+            </a>
+
+        </div>
+
+        <footer>
+            © 2026 All rights reserved.
+        </footer>
+    </div>
+
+</body>
+</html>
