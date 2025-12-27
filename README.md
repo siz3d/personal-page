@@ -18,6 +18,10 @@
 
 <br>
 
+<div align="center">
+  <img src="Gravando 2025-12-27 115723.gif" alt="Preview do Site" width="100%">
+</div>
+<br>
 ## ✨ Features
 
 * 🎬 **Video Background:** Immersive atmosphere with continuous loop.
