@@ -19,7 +19,7 @@
 <br>
 
 <div align="center">
-  <img src="Gravando 2025-12-27 115723.gif" alt="Preview do Site" width="100%">
+  <img src="exemple.gif" alt="Example" width="100%">
 </div>
 <br>
 ## ✨ Features
