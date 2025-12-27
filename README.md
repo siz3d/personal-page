@@ -19,8 +19,9 @@
 <br>
 
 <div align="center">
-  <img src="exemple.gif" alt="Example" width="100%">
+  <img src="https://github.com/siz3d/personal-page/blob/main/example.gif?raw=true" alt="Demonstração do Projeto" width="700">
 </div>
+
 <br>
 ## ✨ Features
 
